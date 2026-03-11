@@ -170,5 +170,5 @@ resource "azurerm_storage_account" "storage" {
     }
   }
 
-  tags = merge({ "ResourceName" = format("%s", local.sa_name)}, local.default_tags, var.add_tags)
+  tags = merge({ "ResourceName" = format("%s", local.sa_name) }, local.default_tags, var.add_tags)
 }

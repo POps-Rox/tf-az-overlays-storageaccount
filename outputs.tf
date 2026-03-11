@@ -23,8 +23,8 @@ output "storage_account_uri" {
 }
 
 output "primary_access_key" {
-    description = "Specifies the primary access key of the storage account"
-    value       = azurerm_storage_account.storage.primary_access_key
+  description = "Specifies the primary access key of the storage account"
+  value       = azurerm_storage_account.storage.primary_access_key
 }
 
 output "storage_account_identity" {
@@ -48,8 +48,8 @@ output "storage_blob_containers" {
 }
 
 output "primary_blob_endpoint" {
-    description = "Specifies the primary blob endpoint of the storage account"
-    value       = azurerm_storage_account.storage.primary_blob_endpoint
+  description = "Specifies the primary blob endpoint of the storage account"
+  value       = azurerm_storage_account.storage.primary_blob_endpoint
 }
 
 output "storage_file_shares" {
