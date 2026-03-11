@@ -100,7 +100,7 @@ The default action set to `Allow` when no network rules matched. A `subnet_ids` 
 
 ```hcl
 module "storage" {
-  source  = "azurenoops/overlays-storage-account/azurerm"
+  source  = "POps-Rox/tf-az-overlays-storage-account/azurerm"
   version = "x.x.x"
 
   # .... omitted
@@ -133,7 +133,7 @@ This module supports the implementation of storage lifecycle management. If spec
 
 ```hcl
 module "storage" {
-  source  = "azurenoops/overlays-storage-account/azurerm"
+  source  = "POps-Rox/tf-az-overlays-storage-account/azurerm"
   version = "x.x.x"
 
   # .... omitted
@@ -181,7 +181,7 @@ resource "azurerm_user_assigned_identity" "example" {
 }
 
 module "storage" {
-  source  = "azurenoops/overlays-storage-account/azurerm"
+  source  = "POps-Rox/tf-az-overlays-storage-account/azurerm"
   version = "x.x.x"
 
   # .... omitted
